@@ -11,3 +11,9 @@ const obj = {
 
 obj.a = 10;
 console.log(obj);
+
+const userName = 'John';
+let userNumber = 25;
+userNumber = 24;
+console.log(userName);
+console.log(userNumber);
