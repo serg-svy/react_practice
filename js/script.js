@@ -6,14 +6,22 @@ const leftBorderWidth = 1;
 number = 10;
 console.log(number);
 const obj = {
-    a: 5
+    name: "John",
+    age: 25,
+    isMarried: false
 };
 
 obj.a = 10;
-console.log(obj);
+console.log(obj["age"]);
 
-const userName = 'John';
+
+const userName = "John";
 let userNumber = 25;
 userNumber = 24;
 console.log(userName);
 console.log(userNumber);
+
+
+// массив
+let arr = ['plum.png', 'orange.jpg', 'apple.bmp', {}, []];
+console.log(arr[1]);
